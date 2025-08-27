@@ -10,5 +10,10 @@ namespace MyFirstGitHubClassRoomConsoleApp60
     {
         public int MyProperty { get; set; }
         public int MyProperty1 { get; set; }
+
+        public override string ToString()
+        {
+            return "Denne klasse indeholder 2 properties";
+        }
     }
 }
